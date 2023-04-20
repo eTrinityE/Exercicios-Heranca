@@ -1,0 +1,8 @@
+A sobrescrita de método (também conhecida como override) em Java é uma técnica em que uma classe filho fornece sua própria implementação de um método que já é definido em sua classe pai. Para sobrescrever um método, a classe filha deve ter o mesmo nome de método, mesmo tipo de retorno e mesmos parâmetros de entrada da classe pai.
+
+As regras básicas para sobrescrita de método em Java são:
+
+- O método deve ter o mesmo nome, tipo de retorno e parâmetros de entrada da classe pai.
+- A visibilidade do método na classe filho não pode ser mais restritiva do que na classe pai.
+- A classe filho não pode lançar exceções não declaradas pela classe pai.
+- O método não pode ser sobrescrito se for declarado como final ou static na classe pai.

@@ -1,0 +1,8 @@
+A sobrecarga de método em Java permite que um mesmo nome de método seja utilizado para diferentes parâmetros de
+ entrada, desde que a assinatura dos parâmetros seja diferente. As regras para a utilização de sobrecarga de
+ método são as seguintes:
+
+- A sobrecarga de método deve ter o mesmo nome do método original;
+- Os parâmetros da sobrecarga devem ter assinaturas diferentes dos parâmetros do método original;
+- O tipo de retorno do método não faz parte da assinatura, portanto, uma sobrecarga pode ter um tipo de retorno
+diferente do método original.
